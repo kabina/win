@@ -2,7 +2,7 @@ from multiprocessing import Process
 import time
 import os
 
-#시작시간
+#시작시간 ;;
 start_time = time.time()
 
 #멀티쓰레드 사용 (40만 카운트 출력)
