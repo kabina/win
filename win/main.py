@@ -18,7 +18,7 @@ def analysis(name):
     df = sheet.range('A1').options(pd.DataFrame, index=False, expand='table').value
 
     print(df)
-    print('sepal_length 최대값->', df['상세기능'].value_counts())
+    print('최대값->', df['상세기능'].value_counts())
 
     # 인스턴스 종료
     app.kill()
